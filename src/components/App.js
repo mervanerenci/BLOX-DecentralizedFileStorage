@@ -4,7 +4,6 @@ import Navbar from './Navbar'
 import Main from './Main'
 import Web3 from 'web3';
 import './App.css';
-import './me.css';
 
 //Declare IPFS
 const infuraUse = "2Ft9HcaaLutfE2vPjrRRY5XBwUJ";
@@ -45,10 +44,9 @@ class App extends Component {
 
     //Network ID
 
-    
+    //IF got connection, get data from contracts
     const networkId = await web3.eth.net.getId()
     const networkData = DStorage.networks[networkId]
-    //IF got connection, get data from contracts
     if(networkData) {
       // Assign contract
       const dstorage = new web3.eth.Contract(DStorage.abi, networkData.address)
@@ -64,9 +62,7 @@ class App extends Component {
         })
       }
     } else {
-       window.alert('DStorage contract not deployed to detected network.')
-      
-     
+      window.alert('DStorage contract not deployed to detected network.')
     }
   }
     
@@ -141,10 +137,10 @@ class App extends Component {
 
   render() {
     return (
-      <div >
+      <div>
         <Navbar account={this.state.account} />
         { this.state.loading
-          ? <div id="loader" className="text-center mt-5 oswald"><p>Loading...</p></div>
+          ? <div id="loader" className="text-center mt-5"><p>Loading...</p></div>
           : <Main
               files={this.state.files}
               captureFile={this.captureFile}
