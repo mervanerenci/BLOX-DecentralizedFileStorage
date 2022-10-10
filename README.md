@@ -1,4 +1,4 @@
- ``` # BLOX ```
+#  ```  BLOX ```
 
 *Share, Upload, View, Blox!*
 
@@ -40,15 +40,15 @@ If you want to test BLOX! in your local host, follow the instructions, upload yo
 
    > networks: {
    >
-   > ​     development: { 
+   >   development: { 
    >
-   >    host: "127.0.0.1",
+   > host: "127.0.0.1",
    >
-   >    port: 7545,
+   > port: 7545,
    >
-   >    network_id: "*" // Match any network id
+   > network_id: "*" // Match any network id
    >
-   >   },
+   > },
 
 3. Run these commands on terminal to compile your contracts and deploy them to blockchain.
 
