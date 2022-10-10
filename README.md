@@ -76,7 +76,11 @@ That's it ! Now you can upload your files using simple BLOX! UI and forget about
 
 ---
 
+## Preview
 
+
+
+![](https://ipfs.io/ipfs/QmTQtTy8BSYZX7CBYHsNcdPqAgS2k2Qfsg2u2TjZacRhwk)
 
 
 
