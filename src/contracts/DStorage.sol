@@ -1,3 +1,5 @@
+//SPDX-License-Identifier: MIT
+
 pragma solidity ^0.8.7;
 
 contract DStorage {
@@ -32,7 +34,7 @@ contract DStorage {
     address uploader
   );
 
-  constructor() public {
+  constructor()  {
   }
 
   // Upload File function

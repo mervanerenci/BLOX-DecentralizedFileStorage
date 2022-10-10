@@ -1,0 +1,42 @@
+body {
+    font-family: 'Silkscreen', cursive;
+
+    background-color: white;
+    /* background-image:url("Sprinkle(2).svg"); */
+    background-attachment: fixed;
+
+}
+
+.oswald {
+    font-family: 'Silkscreen', cursive;
+
+}
+
+::placeholder {
+    font-family: 'Silkscreen', cursive;
+
+}
+
+input {
+    font-family: 'Silkscreen', cursive;
+
+}
+
+form {
+    font-family: 'Silkscreen', cursive;
+
+}
+.bg-blackk {
+    background-color:#0718C4
+}
+
+.bg-whitee {
+    background-color: white;
+}
+.blackk {
+    color: #3D3839;
+}
+
+.margin-l {
+    margin-left: 70px;
+}
