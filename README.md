@@ -1,4 +1,4 @@
-#  ```  BLOX ```
+#  ```  BLOX! ```
 
 *Share, Upload, View, Blox!*
 
@@ -70,7 +70,7 @@ If you want to test BLOX! in your local host, follow the instructions, upload yo
 
 That's it ! Now you can upload your files using simple BLOX! UI and forget about your files existence. BLOX! will remember forever.
 
-*as long as you wish actually...* 
+*~as long as you wish actually...* 
 
 
 
