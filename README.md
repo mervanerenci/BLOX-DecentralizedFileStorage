@@ -78,7 +78,7 @@ That's it ! Now you can upload your files using simple BLOX! UI and forget about
 
 ## Take a quick peek!
 
-[bloxx.netlify.app](bloxx.netlify.app)
+[bloxx.netlify.app](https://bloxx.netlify.app/)
 
 ## Preview
 
